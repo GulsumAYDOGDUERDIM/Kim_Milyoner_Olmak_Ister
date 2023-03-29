@@ -138,6 +138,22 @@
 
                 goto yanitNoktasi;
             }
+
+            else if (secim == 'R')
+            {
+                Console.WriteLine(kasa + " TL Kazanacaksınız.");
+                Console.Write("Çekilmek İstediğinize Emin Misiniz? : ");
+                char cekilCevap = char.Parse(Console.ReadLine());
+
+                if (cekilCevap == 'E')
+                {
+                    Console.WriteLine("Tebrikler, " + kasa + " TL Kazandınız.");
+                    Console.WriteLine("Oyun Bitti");
+                    //return;
+                    Environment.Exit(0);
+                }
+                goto soruNoktasi;
+            }
             #endregion
 
         }
