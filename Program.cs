@@ -50,6 +50,26 @@
             bool gizleA, gizleB, gizleC, gizleD;
             string soru, a, b, c, d;
             char cevap;
+
+            #region Soru Bilgileri
+            soruNo = 1;
+            soru = "Türkiyenin Başkenti Neresidir?";
+            a = "Ankara";
+            b = "Bursa";
+            c = "Van";
+            d = "Denizli";
+            cevap = 'A';
+            odul = 1000;
+            baraj = 0;// TODO: SoruNo ile baraj ilişkisi.
+
+            // TODO: SoruNo ile ilişkili olarak Rastgele değerler olması lazım.
+            seyirciYuzdeA = 80; seyirciYuzdeB = 10;
+            seyirciYuzdeC = 5; seyirciYuzdeD = 5;
+
+            // TODO: Daha iyi olabirlir mi? Her seferinde bunu tekrarlamaya gerek yok gibi.
+            gizleA = false; gizleB = false;
+            gizleC = false; gizleD = false;
+            #endregion
             #endregion
 
         }
