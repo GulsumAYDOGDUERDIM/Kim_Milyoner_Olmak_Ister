@@ -154,6 +154,21 @@
                 }
                 goto soruNoktasi;
             }
+
+            else if (secim != cevap)
+            {
+                Console.WriteLine("Elendiniz, Kazandığınız Tutar: " + baraj + " TL");
+                Console.WriteLine("Oyun Bitti");
+                //return;
+                Environment.Exit(0);
+            }
+            kasa = odul;
+            Console.WriteLine("Tebrikler, Kazandığınız Tutar: " + kasa + " TL");
+            Console.WriteLine("\nSonraki Soruya Geçmek  İçin Enter'a Basın..");
+            Console.ReadLine();
+            #endregion
+
+
             #endregion
 
         }
