@@ -41,6 +41,15 @@
                 Console.WriteLine("Hazır olduğunuzda Enter'a Basın");
                 Console.ReadLine();
             }
+
+            bool seyirciHak = true, yuzdeHak = true, telefonHak = true;
+            int kasa = 0;
+
+            int soruNo = 1, odul, baraj;
+            int seyirciYuzdeA, seyirciYuzdeB, seyirciYuzdeC, seyirciYuzdeD;
+            bool gizleA, gizleB, gizleC, gizleD;
+            string soru, a, b, c, d;
+            char cevap;
             #endregion
 
         }
