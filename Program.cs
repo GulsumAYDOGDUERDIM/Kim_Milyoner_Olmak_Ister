@@ -7,7 +7,7 @@
             #region Kim Milyoner Olmak İster - V1
             Console.WriteLine("Kim Milyoner Olmak İster\n");
             Console.Write("İsim ve soyisim Giriniz: ");
-            string isim = Console.ReadLine();
+            string isimSoyisim = Console.ReadLine();
 
 
             Console.Write("\n1.Telefon Jokerinizi Giriniz: ");
@@ -18,7 +18,7 @@
             string telefonJoker3 = Console.ReadLine();
 
             Console.Clear();
-            Console.WriteLine("Hoşgeldiniz " + isim + " " + soyisim);
+            Console.WriteLine("Hoşgeldiniz " + isimSoyisim);
 
             Console.Write("Kuralları Biliyor Musunuz? : ");
             char kuralCevap = char.Parse(Console.ReadLine().ToUpper());
